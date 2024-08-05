@@ -13,8 +13,8 @@ import AbleToTow from '../interfaces/AbleToTow.js';
   year: number;
   weight: number;
   topSpeed: number;
-  wheels: Wheel[];
   towingCapacity: number;
+  wheels: Wheel[];
 
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, wheels, and towing capacity
   // TODO: The types should be as follows: vin (string), color (string), make (string), model (string), year (number), weight (number), topSpeed (number), wheels (Wheel[]), towingCapacity (number)
@@ -46,6 +46,7 @@ import AbleToTow from '../interfaces/AbleToTow.js';
     this.year = year;
     this.weight = weight;
     this.topSpeed = topSpeed;
+    this.wheels = wheels;
     this.towingCapacity = towingCapacity;
 
 
