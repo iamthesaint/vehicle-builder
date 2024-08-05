@@ -6,6 +6,9 @@ import Wheel from './Wheel.js';
 import AbleToTow from '../interfaces/AbleToTow.js';
   // Define the Truck class that extends the Vehicle class and implements the AbleToTow interface
   class Truck extends Vehicle implements AbleToTow {
+  static wheelie() {
+    throw new Error("Method not implemented.");
+  }
 
   // TODO: Declare properties of the Truck class
   vin: string;
