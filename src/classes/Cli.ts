@@ -266,8 +266,6 @@ class Cli {
         this.vehicles.push(motorbike);
         console.log(`Motorbike created.`);
 
-
-
         // TODO: set the selectedVehicleVin to the vin of the motorbike
 
         this.selectedVehicleVin = motorbike.vin;
