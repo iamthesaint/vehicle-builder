@@ -18,6 +18,7 @@ class Vehicle implements Driveable {
     console.log(`Vehicle started: ${this.started}`);
     console.log(`Vehicle current speed: ${this.currentSpeed} mph`);
   }
+  
 
   // Method to start the vehicle
   start(): void {
