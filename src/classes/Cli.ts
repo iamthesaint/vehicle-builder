@@ -176,7 +176,7 @@ class Cli {
           type: 'input',
           name: 'towingCapacity',
           message: 'Enter Towing Capacity',
-        },
+        }
       ])
       .then((answers) => {
         const truck = new Truck(
@@ -188,7 +188,7 @@ class Cli {
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
           [],
-          parseInt(answers.towingCapacity)
+          parseInt(answers.towingCapacity),
         );
         // push the truck to the vehicles array
         this.vehicles.push(truck);
@@ -235,16 +235,7 @@ class Cli {
           name: 'topSpeed',
           message: 'Enter Top Speed',
         },
-        {
-          type: 'input',
-          name: 'frontWheelDiameter',
-          message: 'Enter Front Wheel Diameter',
-        },
-        {
-          type: 'input',
-          name: 'backWheelDiameter',
-          message: 'Enter Back Wheel Diameter',
-        },
+        
       ])
       .then((answers) => {
         const motorbike = new Motorbike(
