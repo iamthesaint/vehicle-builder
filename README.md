@@ -6,7 +6,6 @@ A command line application that allows the user to create and perform actions on
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -18,6 +17,11 @@ Install dependencies using ```npm install inquirer```
 ## Usage
 
 Run the application using ```npm start``` and follow the inquiries to create vehicles or perform actions on vehicles.
+
+
+https://github.com/user-attachments/assets/7507d705-2c1c-4016-a5ac-e6887d90d9c3
+
+
 
 ## Contributing
 
